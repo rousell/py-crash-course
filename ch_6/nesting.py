@@ -55,6 +55,7 @@ cities = {
     },
 }
 
-for city, info in cities.items():
-    print(city + ", " + info['country'] + " has an approx. population of " + str(info['approx_pop']) +
-    " and " + info['fact'])
+# for city, info in cities.items():
+#     print(city + ", " + info['country'] + " has an approx. population of " + str(info['approx_pop']) +
+#     " and " + info['fact'])
+

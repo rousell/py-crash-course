@@ -2,7 +2,7 @@
 # from car_module import build_car
 # from car_module import build_car as bc
 # import car_module as cm
-from car_module import *
+# from car_module import *
 
 ## Message
 def display_message():
@@ -121,4 +121,4 @@ def non_module_build_car(manufacturer, model, **info):
 # print(build_car('Nissan','Pathfinder',color='tan',make=1998))
 # print(bc('Nissan','Pathfinder',color='tan',make=1998))
 # print(cm.build_car('Nissan','Pathfinder',color='tan',make=1998))
-print(build_car('Nissan','Pathfinder',color='tan',make=1998))
+# print(build_car('Nissan','Pathfinder',color='tan',make=1998))

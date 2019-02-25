@@ -18,32 +18,3 @@ class User():
 
     def reset_login_attempts(self):
         self.login_attempts = 0
-
-user_0 = User("Fred", "Smith", 60, "male")
-user_1 = User("Nellie", "Brown", 32, "female")
-
-# user_0.describe_user()
-# user_0.greet_user()
-
-# user_1.describe_user()
-# user_1.greet_user()
-
-class Privileges():
-    def __init__(self):
-        self.privileges = ["can add post", "can delete post", "can ban user"]
-
-    def show_privileges(self):
-        """Displays Admin User privileges"""
-        print("The Admin User has the following privileges: " + ', '.join(self.privileges))
-
-class Admin(User):
-    def __init__(self, first, last, age, gender):
-        """
-        Initialize attributes of the parent class
-        Defines Admin attributes
-        """
-        super().__init__(first, last, age, gender)
-        self.privileges = Privileges()
-
-super_user = Admin("Peter", "Gibbons", 32, "male")
-super_user.privileges.show_privileges()

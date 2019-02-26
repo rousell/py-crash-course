@@ -1,0 +1,3 @@
+In Python you can create modules without defining explicit exports
+In Python you can do conditional checking more cleanly since empty lists and strings resolve to false
+In Python you can do math more easily than in javascript
